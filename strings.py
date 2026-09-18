@@ -16,4 +16,4 @@ sentence = " The quick brown fox jumped over the lazy dog."
 print(sentence)
 print(sentence.replace("doge," "monkey"))
 print(len(name)) #<= gets the lenght of a string
-print(f"Tour name is {name} that is {len(name)} letters long. Your first initial is{name[0]}")
+print(f"Tour name is {name} that is {len(name)} letters long. Your first initial is{name[0]}") 
