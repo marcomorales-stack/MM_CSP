@@ -2,7 +2,7 @@
 
 # conditional
 
-time = 1416
+time = 1416:
 day = "Tuesday"
 
 if time < 1200 and time > 500:
@@ -12,7 +12,6 @@ elif time < 1700:
     print("Good Afternoon!")
 elif time < 2000:
     print("Good Evening")
-else:
+    else:
     print("Good Night!")
-
 print("Code is done")
