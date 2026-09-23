@@ -6,4 +6,4 @@
 for letter in password:
     if letter.isupper():
         # update upper case variable
-        to True
+        to True 
