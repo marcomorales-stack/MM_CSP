@@ -16,3 +16,7 @@ while True:
     print("Duck. . . .")
     ducks += 1 #ducks = ducks + 1
 print("GOOSE!!!!")
+
+# Complex Data Type = holds other data in it
+siblings =["Charlize, Jimena, Miranda, Cami"]
+print(siblings{2})
