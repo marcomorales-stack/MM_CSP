@@ -6,7 +6,9 @@ message = input("Enter your message: ")
 amount = input("Enter a shift amount: ")
 
 for letter in message:
-    print("message")
-
-for amount in range(1,26):
- 
+    if letter.isalpha():
+        letter = ord(letter)
+        print(letter)
+        letter += amount
+        print(letter)
+        
