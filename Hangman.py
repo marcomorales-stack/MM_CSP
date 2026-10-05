@@ -1,12 +1,14 @@
 # MM, 7th, Hangman
 import random
 #Create a list of 10 words on a seperate txt file
-list = ("sigma, beta, skibidi, alpha, scooby-doo, rizz, ohio, brainrot")
-
+list = ("sigma, beta, skibidi, alpha, scooby-doo, rizz, ohio, brainrot, unicorn, Pneumonoultramicroscopicsilicovolcanoconiosis, ")
+print(random.choice(list))
 # Create another file holds win/loss counts
-
+with open("score.txt","r") as file:
+    score = file.read().split(",")
 # Use split(",") on the content of the words txt document to create your list of words
-
+with open("hang.txt","r") as file:
+    words = file.read().split(",")
 # Pull win and lose totals from the other txt file and save them as 2 seperate variables
 
 # Build the hangman game
